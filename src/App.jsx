@@ -7,6 +7,9 @@ const files = [
   { name: "React Components ", path: "../ReactComponents.zip " },
   { name: "React Router Single Page", path: "../ReactRouting.zip " },
   { name: "Forms ", path: "./Forms.zip " },
+  { name: "Django Rest ", path: "./RestDjango.zip " },
+  { name: "Django Students ", path: "./students.zip " },
+  { name: "Angular Components ", path: "./AngularComponents.zip " },
 ];
 
 const App = () => {
