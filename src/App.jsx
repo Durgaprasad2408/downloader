@@ -4,6 +4,10 @@ const files = [
   { name: "Movie App", path: "./MovieApp.zip" },
   { name: "React Todo", path: "./TodoApp.zip" },
   { name: "Angular Todo", path: "./angulartodo.zip" },
+  { name: "React Components ", path: "../ReactComponents.zip " },
+  { name: "React Router", path: "../ReactRouting.zip " },
+  { name: "Controlled Form ", path: "./ControlledForm.zip " },
+  { name: "UnControlled Form ", path: "../UncontrolledForm.zip " },
 ];
 
 const App = () => {
