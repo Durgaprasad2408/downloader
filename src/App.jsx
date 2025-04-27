@@ -10,6 +10,7 @@ const files = [
   { name: "Django Rest ", path: "./RestDjango.zip " },
   { name: "Django Students ", path: "./students.zip " },
   { name: "Angular Components ", path: "./AngularComponents.zip " },
+  { name: "Angular Directives ", path: "./AngularDirectives.zip " },
 ];
 
 const App = () => {
