@@ -16,7 +16,7 @@ const files = [
 const App = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center p-4">
-      <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-lg">
+      <div className="bg-white grid grid-cols-2 p-6 rounded-lg shadow-lg w-full max-w-lg">
         <h1 className="text-3xl font-bold text-center text-blue-600 mb-6">Download Files Here</h1>
         <ul className="space-y-4">
           {files.map((file, index) => (
