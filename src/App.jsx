@@ -18,19 +18,21 @@ const App = () => {
     <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center p-4">
       <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-lg">
         <h1 className="text-3xl font-bold text-center text-blue-600 mb-6">Download Files Here</h1>
-        <ul className="space-y-4 grid grid-cols-1 gap-4">
-          {files.map((file, index) => (
-            <li key={index} className="flex justify-between items-center p-3 bg-gray-200 rounded-md hover:bg-gray-300">
-              <span className="text-lg text-gray-800">{file.name}</span>
-              <a
-                href={file.path}
-                download
-                className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
-              >
-                Download
-              </a>
-            </li>
-          ))}
+        <ul className="space-y-4 ">
+          <div className='grid grid-cols-1 gap-4'>
+            {files.map((file, index) => (
+              <li key={index} className="flex justify-between items-center p-3 bg-gray-200 rounded-md hover:bg-gray-300">
+                <span className="text-lg text-gray-800">{file.name}</span>
+                <a
+                  href={file.path}
+                  download
+                  className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
+                >
+                  Download
+                </a>
+              </li>
+            ))}
+          </div>
         </ul>
       </div>
     </div>
