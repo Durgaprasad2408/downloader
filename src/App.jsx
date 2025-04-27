@@ -5,9 +5,8 @@ const files = [
   { name: "React Todo", path: "./TodoApp.zip" },
   { name: "Angular Todo", path: "./angulartodo.zip" },
   { name: "React Components ", path: "../ReactComponents.zip " },
-  { name: "React Router", path: "../ReactRouting.zip " },
-  { name: "Controlled Form ", path: "./ControlledForm.zip " },
-  { name: "UnControlled Form ", path: "../UncontrolledForm.zip " },
+  { name: "React Router Single Page", path: "../ReactRouting.zip " },
+  { name: "Forms ", path: "./Forms.zip " },
 ];
 
 const App = () => {
