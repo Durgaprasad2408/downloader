@@ -1,6 +1,7 @@
 import React from "react";
 
 const files = [
+  { name: "MVC App", path: "./MVC.zip" },
   { name: "Movie App", path: "./MovieApp.zip" },
   { name: "React Todo", path: "./TodoApp.zip" },
   { name: "Angular Todo", path: "./angulartodo.zip" },
